@@ -6,4 +6,6 @@ module.exports = async function (deployer) {
 
   console.log("Deployed success");
   console.log(await contract.greeting());
+  console.log(await contract.test());
+  console.log(await contract.test2());
 };
